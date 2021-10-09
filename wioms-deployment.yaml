@@ -14,7 +14,7 @@ spec:
         app: wioms
     spec:
       containers:
-      - image: gcr.io/heptio-images/ks-guestbook-demo:0.2
+      - image: liyubao1232000/wioms:v109
         name: wioms
         ports:
-        - containerPort: 80
+        - containerPort: 8888
