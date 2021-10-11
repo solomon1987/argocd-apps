@@ -3,6 +3,7 @@ kind: Service
 metadata:
   name: wioms
 spec:
+  type: NodePort
   ports:
   - port: 80
     protocol: TCP
