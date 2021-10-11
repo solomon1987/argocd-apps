@@ -14,7 +14,7 @@ spec:
         app: wioms
     spec:
       containers:
-      - image: liyubao1232000/wioms:v109
+      - image: liyubao1232000/wioms:v114
         name: wioms
         ports:
         - containerPort: 8888
